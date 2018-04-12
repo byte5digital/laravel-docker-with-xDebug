@@ -43,8 +43,8 @@ Um Docker auf Windows mit "Shared Drives" unabhängig vom Standort zu verwenden,
     + Falls ein Error ` Cannot start service app: b'driver failed programming external connectivity on endpoint` auftritt muss möglicherweise der `.env` Datei `APP_PORT=8080` hinzugefügt werden.
 - Laravel unter [localhost:APP_PORT](http://localhost:8080) aufrufen
 
-### Enable xDebug
-#### in VsCode
+## Enable xDebug
+### in VsCode
 - install [PHP Debug](https://marketplace.visualstudio.com/items?itemName=felixfbecker.php-debug) & restart vs code
 - Anzeigen -> Debuggen anzeigen (strg + shift + d) -> Einstellungen (Zahnrad)
 
@@ -64,7 +64,7 @@ Um Docker auf Windows mit "Shared Drives" unabhängig vom Standort zu verwenden,
     },
 ```
 
-#### in PhpStorm
+### in PhpStorm
 - Configuring a Server: `Preferences > Languages & Frameworks > PHP > Servers`
     + Add "docker-server" with Post of `APP_PORT` set "Debugger" to Xdebug
     + select "User path mappings"
