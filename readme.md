@@ -27,8 +27,8 @@ Bevor wir Vessel installieren müssen muss [Composer](https://getcomposer.org/Co
 **DockerHost User**
 Um Docker auf Windows mit "Shared Drives" unabhängig vom Standort zu verwenden, sollte ein "DockerHost" user angelegt werden. [Quelle](https://blogs.msdn.microsoft.com/stevelasker/2016/06/14/configuring-docker-for-windows-volumes/)
 
-- Win + I -> Konten -> Andere Personen -> Diesem PC eine andere Person hinzufügen
-- Ich kenne die Information für diese Person nicht -> Benutzer ohne Microsoft-Konto hinzufügen
+- `Win + I` -> `Konten` -> `Andere Personen` -> `Diesem PC eine andere Person hinzufügen`
+- `Ich kenne die Information für diese Person nicht` -> `Benutzer ohne Microsoft-Konto hinzufügen`
 => Benutzername: DockerHost + beliebiges PW
 
 - Auf "DockerHost" Konto klicken -> "Kontotyp ändern" in "Administrator"
